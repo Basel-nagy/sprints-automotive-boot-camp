@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\basel\Videos\kk\main.c(47,5): warning C4013: 'system' undefined; assuming extern returning int
+C:\Users\basel\Videos\kk\main.c(39,6): warning C4102: 'again': unreferenced label
+C:\Users\basel\Videos\kk\main.c(245,13): warning C4101: 'i': unreferenced local variable
+  Project10.vcxproj -> C:\Users\basel\Videos\Project10\x64\Debug\Project10.exe
