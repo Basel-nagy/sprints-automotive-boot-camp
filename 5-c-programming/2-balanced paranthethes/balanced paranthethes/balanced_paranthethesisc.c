@@ -11,6 +11,7 @@ extern ST_stack_t MY_STACK;
 */
 int8_t isBalancedParanthethes(uint8_t* expression)
 {
+	createEmptyStack(&MY_STACK);
 	uint8_t data,top=0;
 	uint8_t i;
 	uint8_t flag = 0;
@@ -54,23 +55,26 @@ int8_t isBalancedParanthethes(uint8_t* expression)
 					}
 					else if ((data == '(') && (expression[i] != ')'))
 					{
-						flag = 1;
+						flag = 1; 
 						break;
 					}
 					else
 					{
 						flag = 0;
-						continue;
+						
 					}
 				}
 				else
 				{
 					flag = 1;
+					break;
+
 				}				
 			}
 			else
 			{
-				flag = 1;
+	
+				//do nothing		
 			}
 		}
      }
@@ -82,4 +86,30 @@ int8_t isBalancedParanthethes(uint8_t* expression)
 	{
 		return -1;
 	}
+}
+
+void isBalancedParanthethestest(void)
+{
+	
+	uint8_t counter = 0;
+	int8_t error;
+	uint8_t string[50];
+	while (1)
+	{
+		counter++;
+		printf("test case : %d\n", counter);
+		printf("enter the string\n");
+		gets(string);
+		error = isBalancedParanthethes(string);
+		if ( error== 0)
+			printf("balanced paranthethesis\n");
+		else if (error == -1)
+			printf("not balaned paranthethesis\n");
+		else
+		{
+			printf("the is no parenthesis\n");
+		}
+
+	}
+	
 }

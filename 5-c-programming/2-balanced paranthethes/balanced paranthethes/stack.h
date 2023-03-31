@@ -18,4 +18,5 @@ int8_t printStack(ST_stack_t* stack);
 int8_t getStackTop(ST_stack_t* stack, uint8_t* topData);
 int8_t isFull(ST_stack_t* stack);
 int8_t isEmpty(ST_stack_t* stack);
+void stacktest(void);
 #endif _STACK_H_
