@@ -1,0 +1,11 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Longest consecutive subsequence.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  LCS.C
+C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\Refactor\refactor LCS\Longest consecutive subsequence\Longest consecutive subsequence\LCS.C(87,9): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int8_t *'
+C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\Refactor\refactor LCS\Longest consecutive subsequence\Longest consecutive subsequence\LCS.C(87,9): message : consider using '%hhd' in the format string
+  main.c
+  sort.c
+C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\Refactor\refactor LCS\Longest consecutive subsequence\Longest consecutive subsequence\sort.c(88,9): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'uint8_t *'
+C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\Refactor\refactor LCS\Longest consecutive subsequence\Longest consecutive subsequence\sort.c(88,9): message : consider using '%hhd' in the format string
+C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\Refactor\refactor LCS\Longest consecutive subsequence\Longest consecutive subsequence\sort.c(90,13): warning C4552: '!=': result of expression not used
+  Generating Code...
+  Longest consecutive subsequence.vcxproj -> C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\Refactor\refactor LCS\Longest consecutive subsequence\x64\Debug\3-Longest consecutive subsequence.exe
