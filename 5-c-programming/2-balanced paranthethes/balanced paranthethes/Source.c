@@ -3,7 +3,7 @@
 ST_stack_t MY_STACK;
 int main()
 {
-	//isBalancedParanthethestest();
+	isBalancedParanthethestest();
 	//stacktest();
 
 	

@@ -61,7 +61,6 @@ int8_t isBalancedParanthethes(uint8_t* expression)
 					else
 					{
 						flag = 0;
-						
 					}
 				}
 				else

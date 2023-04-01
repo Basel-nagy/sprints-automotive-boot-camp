@@ -1,8 +1,5 @@
-﻿  Source.c
-  balanced_paranthethesisc.c
+﻿  balanced_paranthethesisc.c
 C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\2-balanced paranthethes\balanced paranthethes\balanced_paranthethesisc.c(19,19): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
-C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\2-balanced paranthethes\balanced paranthethes\balanced_paranthethesisc.c(100,3): warning C4013: 'printf' undefined; assuming extern returning int
-C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\2-balanced paranthethes\balanced paranthethes\balanced_paranthethesisc.c(102,3): warning C4013: 'gets' undefined; assuming extern returning int
-  stack.c
-  Generating Code...
+C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\2-balanced paranthethes\balanced paranthethes\balanced_paranthethesisc.c(99,3): warning C4013: 'printf' undefined; assuming extern returning int
+C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\2-balanced paranthethes\balanced paranthethes\balanced_paranthethesisc.c(101,3): warning C4013: 'gets' undefined; assuming extern returning int
   balanced paranthethes.vcxproj -> C:\Users\basel\Videos\swcm\sprints-automotive-boot-camp\5-c-programming\2-balanced paranthethes\x64\Debug\balanced paranthethes.exe
