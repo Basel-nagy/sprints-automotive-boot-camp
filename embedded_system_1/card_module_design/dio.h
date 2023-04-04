@@ -23,6 +23,6 @@ EN_error_t DIO_WRITE (EN_ports_t port, EN_pins_t, EN_vlevel_t output);
 *Arguments: port, pin number
 *Return: ok if function fine, Not_ok if something wrong happens
 */
-EN_error_t DIO_READ (EN_ports_t port, EN_pins_t);
+EN_error_t DIO_READ (EN_ports_t port, EN_pins_t,uint8_t* state);
 
 #endif
