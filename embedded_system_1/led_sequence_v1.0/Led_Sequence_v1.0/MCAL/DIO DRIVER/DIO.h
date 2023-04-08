@@ -41,7 +41,7 @@ typedef enum PIN_STATE
 
 STD_return DIO_INIT (DIO_PORTS port, DIO_PINS pin, PIN_DIRECTION direction);
 STD_return DIO_WRITE_PIN (DIO_PORTS port, DIO_PINS pin, PIN_STATE state);
-STD_return DIO_READ_PIN (DIO_PORTS port, DIO_PINS pin, uint8_t* vale);
+STD_return DIO_READ_PIN (DIO_PORTS port, DIO_PINS pin, uint8_t* value);
 
 
 
